@@ -5,6 +5,18 @@ html {
   font-family: Verdana;
 }
 
+.main-content {
+  position: relative;
+  padding-top: 4rem;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /*header*/
 
 header {
@@ -12,6 +24,7 @@ header {
   position: fixed;
   z-index: 1;
   color: #484848;
+  background-color: white;
 }
 
 header .navigation {
@@ -68,4 +81,125 @@ nav li {
     align-items: center;
     width: 100%;
   }
+}
+
+/*Main content first-section*/
+
+.first-section {
+  background-color: #D3D3D3
+}
+
+.first-section img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  padding: 2rem 2rem;
+}
+
+.side-text {
+  display: inline-flex;
+  flex-flow: column;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.side-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #404040;
+}
+
+.side-text h3 {
+  font-size: 1rem;
+  color: #404040;
+  padding: 1.4rem 0;
+}
+
+.side-text h4 {
+  background-color: #404040;
+  color: white;
+  padding: 0.7rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  /*transition:*/
+}
+
+@media only screen and (max-width: 560px){
+  .first-section {
+    padding: 2rem 1rem;
+  }
+
+  .first-section img {
+    display: none;
+  }
+
+  .side-text {
+    width: 100%;
+  }
+
+  .side-text h4 {
+    width: 80%;
+    align-self: center;
+  }
+}
+
+/*information section*/
+
+.information {
+  background-color: white;
+}
+
+.left-side {
+  width: 60%;
+  padding: 0 2rem;
+}
+
+.left-side img {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.left-side h1 {
+  color: #404040;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.left-side p {
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  color: #808080;
+  margin-bottom: 2.5rem;
+}
+
+.left-side h5 {
+  font-size: 0.7rem;
+  color: #404040
+}
+
+.right-side {
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  width: 40%;
+}
+
+.right-side img {
+  width: 35%;
+  padding: 1rem 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.box .side-text {
+  width: 56%;
+  line-height: 1.2;
+}
+
+.side-text h2 {
+  font-size: 1rem;
+  color: #404040;
+  font-weight: bold;
 }
