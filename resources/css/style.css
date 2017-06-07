@@ -167,12 +167,14 @@ nav li {
   color: #404040;
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .left-side p {
   line-height: 1.4rem;
   font-size: 0.9rem;
   color: #808080;
+  margin-bottom: 2.5rem;
 }
 
 .left-side h5 {
@@ -192,12 +194,11 @@ nav li {
   width: 30%;
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 2rem;
 }
 
 .box .side-text {
   width: 56%;
-  line-height: 1.2;
+  line-height: 2;
 }
 
 .side-text h2 {
@@ -206,4 +207,13 @@ nav li {
   font-weight: bold;
 }
 
-.side-text p
+.side-text p {
+  font-size: 0.7rem;
+  color: #808080;
+}
+
+.side-text a{
+  color: blue;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
