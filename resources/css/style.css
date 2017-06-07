@@ -93,7 +93,9 @@ nav li {
   display: inline-block;
   vertical-align: middle;
   width: 60%;
-  padding: 2rem 2rem;
+  margin: 2rem 0;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
 }
 
 .side-text {
@@ -152,26 +154,25 @@ nav li {
 
 .left-side {
   width: 60%;
-  padding: 0 2rem;
+  margin: 0 1.5rem;
 }
 
 .left-side img {
   width: 100%;
-  padding: 2rem 0;
+  margin: 2rem 0;
+
 }
 
 .left-side h1 {
   color: #404040;
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
 }
 
 .left-side p {
   line-height: 1.4rem;
   font-size: 0.9rem;
   color: #808080;
-  margin-bottom: 2.5rem;
 }
 
 .left-side h5 {
@@ -184,13 +185,14 @@ nav li {
   flex-flow: column;
   vertical-align: top;
   width: 40%;
+  padding: 2rem 0;
 }
 
 .right-side img {
-  width: 35%;
-  padding: 1rem 0.5rem;
+  width: 30%;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 2rem;
 }
 
 .box .side-text {
@@ -203,3 +205,5 @@ nav li {
   color: #404040;
   font-weight: bold;
 }
+
+.side-text p
