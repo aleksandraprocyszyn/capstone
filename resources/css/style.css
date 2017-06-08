@@ -234,6 +234,9 @@ nav li {
 }
 
 @media only screen and (max-width: 560px){
+  .information {
+    /*padding-bottom: 1rem;*/
+  }
   .left-side {
     display: none;
   }
@@ -241,7 +244,7 @@ nav li {
     display: none;
   }
   .box {
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .box .mobile {
     display: block;
@@ -268,7 +271,7 @@ nav li {
 }
 
 .learning h1 {
-  padding-top: 2rem;
+  padding: 2rem;
   font-weight: bold;
   color: #404040;
   font-size: 2rem;
@@ -279,7 +282,6 @@ nav li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 0;
   width: 100%
 }
 
@@ -317,6 +319,32 @@ nav li {
   font-size: 0.7rem;
   padding-bottom: 1rem;
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 560px){
+  .learning {
+    background-color: white;
+  }
+  .learning h1{
+    padding: 1rem 0;
+  }
+  .course-content img {
+    display: none;
+  }
+  .course-text {
+    height: 2rem;
+    padding: 0 0 0.5rem 2rem;
+  }
+  .course-text p {
+    display: none;
+  }
+  .course-content {
+    width: 100%;
+  }
+  .course-text h3 {
+    background-color: #D3D3D3;
+    padding: 1rem;
+  }
 }
 
 /*.learning {
