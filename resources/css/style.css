@@ -189,7 +189,7 @@ nav li {
   flex-flow: column;
   vertical-align: top;
   width: 40%;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
 
 .right-side img {
@@ -199,7 +199,11 @@ nav li {
 }
 
 .box {
-  padding: 1rem 1rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.box .mobile {
+  display: none;
 }
 
 .box .side-text {
@@ -222,11 +226,39 @@ nav li {
 .side-text a{
   color: blue;
   font-size: 0.7rem;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .information .box:last-child {
   background-color: #D3D3D3;
+}
+
+@media only screen and (max-width: 560px){
+  .left-side {
+    display: none;
+  }
+  .box .desktop {
+    display: none;
+  }
+  .box {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .box .mobile {
+    display: block;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .right-side img {
+    width: 100%;
+  }
+  .box .side-text {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .information .box:last-child {
+    background-color: white;
+  }
 }
 
 /*start learning section*/
