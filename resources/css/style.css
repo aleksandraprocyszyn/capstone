@@ -381,3 +381,15 @@ nav li {
 .exhibit .box:first-child {
   background-color: #D3D3D3;
 }
+
+/*footer*/
+
+footer {
+  border-top: 1px solid #404040;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
