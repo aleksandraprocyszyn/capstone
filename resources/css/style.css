@@ -385,11 +385,24 @@ nav li {
 /*footer*/
 
 footer {
-  border-top: 1px solid #404040;
+  border-top: 1px solid #808080;
+  font-size: 0.7rem;
+  color: #808080;
 }
 
-.content {
+footer .navigation {
   display: flex;
-  justify-content: space-between;
-  position: relative;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  height: 4rem;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer .copyright {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
 }
