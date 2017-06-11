@@ -65,6 +65,12 @@ nav li {
   display: none;
 }
 
+@media only screen and (max-width: 698px){
+  .logo h4 {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 560px){
   header .logo,
     .desktop-menu {
@@ -98,27 +104,27 @@ nav li {
   margin-right: 2.5rem;
 }
 
-.side-text {
+.side {
   display: inline-flex;
   flex-flow: column;
   vertical-align: middle;
   width: 30%;
 }
 
-.side-text h1 {
+.side h1 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
   color: #404040;
 }
 
-.side-text h3 {
+.side h3 {
   font-size: 1rem;
   color: #404040;
   padding: 1.4rem 0;
 }
 
-.side-text h4 {
+.side h4 {
   background-color: #404040;
   color: white;
   padding: 0.7rem 0;
@@ -127,7 +133,16 @@ nav li {
   /*transition:*/
 }
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 825px){
+  .first-section img {
+    width: 45%;
+  }
+  .side {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 629px){
   .first-section {
     padding: 2rem 1rem;
   }
@@ -136,11 +151,11 @@ nav li {
     display: none;
   }
 
-  .side-text {
+  .side {
     width: 100%;
   }
 
-  .side-text h4 {
+  .side h4 {
     width: 80%;
     align-self: center;
   }
@@ -159,7 +174,7 @@ nav li {
 
 .left-side img {
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .left-side h1 {
@@ -187,17 +202,14 @@ nav li {
   flex-flow: column;
   vertical-align: top;
   width: 35%;
-  /*padding: 0.5rem 0;*/
+  margin-top: 1.2rem;
 }
 
-.right-side img {
+.box .desktop {
   width: 35%;
   display: inline-block;
   vertical-align: middle;
-}
-
-.box {
-  padding: 1rem 0 1rem 1rem;
+  margin: 3.5%;
 }
 
 .box .mobile {
@@ -213,19 +225,20 @@ nav li {
 .box .side-text {
   width: 56%;
   line-height: 2.5;
-  padding-left: 1rem;
 }
 
 .side-text h2 {
   font-size: 1rem;
   color: #404040;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .side-text p {
   font-size: 0.7rem;
   color: #808080;
   line-height: 1.5;
+  margin-top: 0.5rem;
 }
 
 .side-text a {
@@ -238,38 +251,51 @@ nav li {
   background-color: #D3D3D3;
 }
 
-@media only screen and (max-width: 560px){
-  .information {
-    /*padding-bottom: 1rem;*/
-  }
+@media only screen and (max-width: 825px){
   .information .left-side {
-    display: none;
+    width: 45%;
   }
-  .box .desktop {
-    display: none;
-  }
-  .box {
-    padding: 1rem 1rem 0rem 1rem;
-  }
-  .box .mobile {
-    display: block;
-  }
-  .information .right-side {
-    width: 100%;
-  }
-  .right-side img {
-    width: 100%;
-  }
-  .box .side-text {
-    width: 100%;
-    padding-top: 1rem;
-  }
-  .information .box:last-child {
-    background-color: white;
+  .information .right-side{
+    width: 45%;
   }
 }
 
-/*start learning section*/
+@media only screen and (max-width: 629px){
+
+  .information .left-side {
+    display: none;
+  }
+
+  .information .right-side{
+    width: 100%;
+  }
+
+  .box {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .box .desktop {
+    display: none;
+  }
+
+  .box .mobile {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .box .side-text {
+    width: 100%;
+    padding: 1rem 0 0 1rem;
+  }
+
+  .information .box:last-child {
+    background-color: white;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/*learning*/
 
 .learning {
   background-color: #D3D3D3;
@@ -288,6 +314,7 @@ nav li {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-left: 0.5rem;
 }
 
 .course-content {
@@ -324,6 +351,12 @@ nav li {
   font-size: 0.7rem;
   padding-bottom: 1rem;
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 825px){
+  .course-content{
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 560px){
@@ -374,7 +407,6 @@ nav li {
 
 .left-side video {
   width: 100%;
-  /*margin-right: 1rem;*/
 }
 
 .left-side h3 {
@@ -388,7 +420,16 @@ nav li {
   background-color: #D3D3D3;
 }
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 825px){
+  .exhibit .left-side {
+    width: 45%;
+  }
+  .exhibit .right-side{
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 629px){
   .exhibit .right-side {
     display: none;
   }
