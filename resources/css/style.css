@@ -283,7 +283,6 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 629px){
-
   .information .left-side {
     display: none;
   }
