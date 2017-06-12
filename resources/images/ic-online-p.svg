@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="28" version="1.1"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_online</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+<g class="currentLayer"><title>Layer 1</title><g id="OPt-2" stroke="none" stroke-width="1" fill="#463163" fill-rule="evenodd" class="" fill-opacity="1">
+        <g id="prog2_pro3_Mobile-Portrait_opt2-Copy-2" fill="#463163">
+            <g id="nav" fill="#463163">
+                <g id="Group-6" filter="url(#filter-1)" fill="#463163">
+                    <g id="ic_online" fill="#463163">
+                        <path d="M24.892857134342194,14 L6.892857134342194,14 L6.892857134342194,4 L24.892857134342194,4 L24.892857134342194,14 zM24.892857134342194,2 L6.892857134342194,2 C5.78285713434218,2 4.892857134342194,2.8900000000000006 4.892857134342194,4 L4.892857134342194,16 C4.892857134342194,17.1045695 5.788287634342197,18 6.892857134342194,18 L13.892857134342194,18 L11.892857134342194,21 L11.892857134342194,22 L19.892857134342194,22 L19.892857134342194,21 L17.892857134342194,18 L24.892857134342194,18 C25.99742663434219,18 26.892857134342194,17.1045695 26.892857134342194,16 L26.892857134342194,4 C26.892857134342194,2.8900000000000006 25.992857134342188,2 24.892857134342194,2 z" id="Shape" fill="#463163"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g></g></svg>
