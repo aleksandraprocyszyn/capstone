@@ -2,7 +2,7 @@
 
 html {
   font-size: 16px;
-  font-family: Verdana;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-content {
@@ -43,16 +43,17 @@ header .logo {
   display: flex;
   align-items: center;
   flex: 1;
-  font-size: 1.1rem;
-}
-
-.logo h4 {
-  font-weight: bold;
-  color: #463163;
+  font-size: 1.4rem;
 }
 
 .logo span {
-  font-weight: lighter;
+  font-weight: 700;
+  color: #463163;
+  line-height: 1;
+}
+
+.logo span:last-child {
+  font-weight: 300;
   color: #463163;
 }
 
@@ -60,9 +61,14 @@ header .logo {
   height: 3rem;
 }
 
-nav li {
+nav a {
   padding: 0 1rem;
   color: #463163;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #AE77C4;
 }
 
 .mobile-menu {
@@ -70,7 +76,7 @@ nav li {
 }
 
 @media only screen and (max-width: 698px){
-  .logo h4 {
+  .logo span {
     display: none;
   }
 }
@@ -88,6 +94,10 @@ nav li {
 
   header .mobile-menu img {
     height: 2rem;
+  }
+
+  header .mobile-menu img:hover{
+    height: 2.5rem;
   }
 
   header .mobile-menu ul{
@@ -121,7 +131,7 @@ nav li {
 
 .side h1 {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.2;
   color: #463163;
 }
@@ -138,7 +148,10 @@ nav li {
   padding: 0.7rem 0;
   text-align: center;
   font-size: 0.9rem;
-  /*transition:*/
+}
+
+.side h4:hover {
+  background-color: #AE77C4;
 }
 
 @media only screen and (max-width: 825px){
@@ -188,7 +201,7 @@ nav li {
 .left-side h1 {
   color: #463163;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
@@ -238,7 +251,7 @@ nav li {
 .side-text h2 {
   font-size: 1rem;
   color: #463163;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -253,6 +266,7 @@ nav li {
   color: #A452C9;
   font-size: 0.7rem;
   margin-top: 0.2rem;
+  font-weight: 300;
 }
 
 .information .box:last-child {
@@ -311,7 +325,7 @@ nav li {
 
 .learning h1 {
   padding: 2rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #463163;
   font-size: 2rem;
   text-align: center;
@@ -342,22 +356,15 @@ nav li {
 
 .course-text h3 {
   color: #463163;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1rem;
-  padding-bottom: 0.5rem;
-}
-
-.course-text .title {
-  color: #64327A;
-  font-size: 0.7rem;
-  line-height: 1rem;
-  padding: 0.5rem 0;
+  padding-bottom: 0.7rem;
 }
 
 .course-text p {
   color: #64327A;
   font-size: 0.7rem;
-  padding-bottom: 1rem;
+  padding-top: 0.3rem;
   line-height: 1.4;
 }
 
@@ -402,7 +409,7 @@ nav li {
 
 .exhibit h1 {
   padding: 2rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #463163;
   font-size: 2rem;
   text-align: center;
@@ -427,7 +434,7 @@ nav li {
 .left-side h3 {
   color: #463163;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 700;
   padding: 1.5rem 0;
 }
 
